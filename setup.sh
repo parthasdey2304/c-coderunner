@@ -27,4 +27,4 @@ echo -e "\e[32m[INFO] Installing the c-coderunner script."
 sudo cp crun /bin/
 sudo chmod +x /bin/crun
 echo -e "[INFO] Script installation successful."
-echo -e "Just type \e[31mrrun \e[33mfile_name.rs\e[32m and the code-runner script would run!!\e[0m"
+echo -e "Just type \e[31mcrun \e[33mfile_name.c\e[32m and the code-runner script would run!!\e[0m"
