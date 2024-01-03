@@ -43,7 +43,7 @@ chmod +x setup.sh
 
 # Usage
 + First write the code with .c extension, suppose `file_name.c` :
-``` rs
+``` c
 // cat file_name.c
 #include <stdio.h>
 
