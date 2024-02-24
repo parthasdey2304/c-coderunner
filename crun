@@ -12,10 +12,10 @@ filename=$(basename -- "$file")
 extension="${filename##*.}"
 
 # Check if the file has a .c extension
-if [ "$extension" != "c" ]; then
-    echo -e "\e[31mError: Please provide a C (.c) file\e[0m"
-    exit 1
-fi
+#if [ "$extension" != "c" || "$extension" != "cpp"]; then
+#    echo -e "\e[31mError: Please provide a C (.c) file\e[0m"
+#    exit 1
+#fi
 
 # Compile the Rust program
 g++ "$file" --output "crun_output_file"
